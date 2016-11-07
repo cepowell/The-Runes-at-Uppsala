@@ -22,7 +22,7 @@ app.get('/uppsala', function(req, res) {
   res.render('uppsala');
 });
 
-app.listen(3000, function () {
+app.listen(port, function () {
   console.log('Application is running on http://localhost:' + port);
 });
 
