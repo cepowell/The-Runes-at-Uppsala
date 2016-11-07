@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<head>
+    <% include ../views/partials/header %>
+    <script src = "../js/home.js"></script>
+</head>
+
+<body class="home">
+
+    <div class="container-fluid">
+
+            <div class "row">
+              <div class = "col-sm-10">
+              </div>
+              <div class = "col-sm-1 text-center home-top-nav">
+                <a id = "credits"> Credits </a>
+              </div>
+              <div class = "col-sm-1 text-center home-top-nav">
+                <a id = "help"> Help </a>
+              </div>
+            </div>
+
+            <div id="credits-popup" class = "popup" title="About This Work">
+              <p>
+                All code and poetry by Cait Powell, 2016. All maps courtesy of Google.
+                Photograph on the home page courtesy of Unsplash.
+              </p>
+            </div>
+
+            <div id="help-popup" class = "popup" title="How To Use This Work">
+              <p>
+                To enter this work, click on one of the maps below. Then,
+                use your mouse or arrow keys to navigate. As you explore,
+                you will encounter orange location markers on the ground.
+                Click on each to reveal a poem. The poems should be read
+                in the context of the physical space where you found them.
+              </p>
+            </div>
+
+            <div class="title">
+                <h1>The Runes at Uppsala</h1>
+                <hr>
+                <hr>
+            </div>
+
+
+            <div class="row">
+
+              <div class="col-sm-4 text-center">
+                <h3> Prologue </h3>
+                <a href = "/sanfrancisco">
+                  <img class = "thumbnail-map" src = "../img/sanfrancisco.jpg" alt = "San Francisco">
+                </a>
+                <br>
+                <h2> San Francisco, CA </h2>
+              </div>
+
+              <div class="col-sm-4 text-center">
+                <h3> Body </h3>
+                <a href = "/claremont">
+                  <img class = "thumbnail-map" src = "../img/claremont.jpg" alt = "Claremont">
+                </a>
+                <br>
+                <h2> Claremont, CA </h2>
+              </div>
+
+              <div class="col-sm-4 text-center">
+                <h3> Epilogue </h3>
+                <a href = "/uppsala">
+                  <img class = "thumbnail-map" src = "../img/uppsala.jpg" alt = "Uppsala">
+                </a>
+                <br>
+                <h2> Uppsala, Sweden </h2>
+              </div>
+        </div>
+
+    </div>
+
+</body>
+
+<html>

@@ -1,0 +1,129 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+*:not(h1, h2) {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+  letter-spacing: 3;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+  letter-spacing: 2;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;;
+  color: white;
+  font-weight: lighter;
+}
+
+/* MAP STYLING */
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+#home-button {
+  position: absolute;
+  top: 10px;
+  left: 70%;
+  z-index: 5;
+  background-color: #fff;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Raleway','sans-serif';
+  line-height: 30px;
+}
+
+#home-button:hover {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+
+#reset-button {
+  position: absolute;
+  top: 10px;
+  left: 80%;
+  z-index: 5;
+  background-color: #fff;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Raleway','sans-serif';
+  line-height: 30px;
+}
+
+#reset-button:hover {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+
+/* HOME PAGE STYLING */
+.home {
+  background-image: url("../img/bed.jpeg");
+  background-size: cover;
+}
+
+.title {
+  z-index: 1;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding-bottom: 200px;
+}
+
+.thumbnail-map {
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 3px;
+}
+
+.thumbnail-map:hover, .thumbnail-map:focus, .thumbnail-map:active {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+
+.home-top-nav {
+  padding-top: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.popup {
+  font-family: 'Raleway', sans-serif;;
+  font-size: 14px;
+  display: none;
+}
+
+.ui-dialog-titlebar {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
