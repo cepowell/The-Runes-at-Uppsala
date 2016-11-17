@@ -51,13 +51,14 @@ h3 {
 #home-button {
   position: absolute;
   top: 10px;
-  left: 70%;
+  left: 85%;
   z-index: 5;
   background-color: #fff;
   border: 1px solid #999;
   text-align: center;
   font-family: 'Raleway','sans-serif';
   line-height: 30px;
+  text-transform: uppercase;
 }
 
 #home-button:hover {
@@ -68,7 +69,7 @@ h3 {
 #reset-button {
   position: absolute;
   top: 10px;
-  left: 80%;
+  left: 92%;
   z-index: 5;
   background-color: #fff;
   border: 1px solid #999;
@@ -80,6 +81,27 @@ h3 {
 #reset-button:hover {
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   border: 2px solid rgba(81, 203, 238, 1);
+}
+
+#help-button {
+  position: absolute;
+  top: 10px;
+  left: 80%;
+  z-index: 5;
+  background-color: #fff;
+  border: 1px solid #999;
+  text-align: center;
+  font-family: 'Raleway','sans-serif';
+  line-height: 30px;
+}
+
+#help-button:hover {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+
+.map-button {
+  text-transform: uppercase;
 }
 
 /* HOME PAGE STYLING */
