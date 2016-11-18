@@ -41,69 +41,6 @@ h3 {
   font-weight: lighter;
 }
 
-/* MAP STYLING */
-
-#map {
-  height: 100%;
-  width: 100%;
-}
-
-#home-button {
-  position: absolute;
-  top: 10px;
-  left: 85%;
-  z-index: 5;
-  background-color: #fff;
-  border: 1px solid #999;
-  text-align: center;
-  font-family: 'Raleway','sans-serif';
-  line-height: 30px;
-  text-transform: uppercase;
-}
-
-#home-button:hover {
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  border: 2px solid rgba(81, 203, 238, 1);
-}
-
-#reset-button {
-  position: absolute;
-  top: 10px;
-  left: 92%;
-  z-index: 5;
-  background-color: #fff;
-  border: 1px solid #999;
-  text-align: center;
-  font-family: 'Raleway','sans-serif';
-  line-height: 30px;
-}
-
-#reset-button:hover {
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  border: 2px solid rgba(81, 203, 238, 1);
-}
-
-#help-button {
-  position: absolute;
-  top: 10px;
-  left: 80%;
-  z-index: 5;
-  background-color: #fff;
-  border: 1px solid #999;
-  text-align: center;
-  font-family: 'Raleway','sans-serif';
-  line-height: 30px;
-}
-
-#help-button:hover {
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  border: 2px solid rgba(81, 203, 238, 1);
-}
-
-.map-button {
-  text-transform: uppercase;
-}
-
 /* HOME PAGE STYLING */
 .home {
   background-image: url("../img/bed.jpeg");
@@ -128,7 +65,7 @@ h3 {
 
 .thumbnail-map:hover, .thumbnail-map:focus, .thumbnail-map:active {
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  border: 2px solid rgba(81, 203, 238, 1);
+  border: 3px solid rgba(81, 203, 238, 1);
 }
 
 .home-top-nav {
@@ -148,4 +85,70 @@ h3 {
 .ui-dialog-titlebar {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
+}
+
+
+/* MAP STYLING */
+
+#panorama {
+  height: 80%;
+  width: 100%;
+}
+
+#map {
+  height: 20%;
+  width: 100%;
+}
+
+#home-button {
+  position: absolute;
+  left: 95%;
+  top: 10px;
+  z-index: 5;
+  text-align: center;
+  font-family: 'Raleway','sans-serif';
+  line-height: 30px;
+  cursor: pointer;
+}
+
+#home-button:hover {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+
+#reset-button {
+  position: absolute;
+  left: 95%;
+  top: 75px;
+  z-index: 5;
+  text-align: center;
+  font-family: 'Raleway','sans-serif';
+  line-height: 30px;
+  cursor: pointer;
+}
+
+#reset-button:hover {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+
+#help-button {
+  margin: 0 auto;
+  position: absolute;
+  left: 95%;
+  top: 140px;
+  z-index: 5;
+  text-align: center;
+  font-family: 'Raleway','sans-serif';
+  line-height: 30px;
+  cursor: pointer;
+}
+
+#help-button:hover {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 2px solid rgba(81, 203, 238, 1);
+}
+
+.map-button {
+  text-transform: uppercase;
 }
