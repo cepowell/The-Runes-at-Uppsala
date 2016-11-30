@@ -80,6 +80,7 @@ function initialize() {
         autoOpen: false,
         draggable: true,
         resizeable: true,
+        width: "400px",
         maxHeight: 500,
         minHeight: 200
     });
@@ -144,6 +145,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -168,6 +170,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -192,6 +195,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -216,6 +220,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -240,6 +245,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -264,6 +270,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -288,6 +295,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -312,6 +320,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -336,6 +345,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -360,6 +370,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -384,6 +395,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });
@@ -408,6 +420,7 @@ function initialize() {
             autoOpen: false,
             draggable: true,
             resizeable: true,
+            width: "auto",
             maxHeight: 500,
             minHeight: 200
         });

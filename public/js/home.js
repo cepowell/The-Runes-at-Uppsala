@@ -3,11 +3,12 @@ $(document).ready(function() {
     autoOpen: false,
     draggable: true,
     resizeable: true,
+    width: "auto",
     maxHeight: 500,
     minHeight: 200
-    //position: {my: "right top", at: "center top", of: "#title"}
   });
   $("#credits").click(function() {
+    $("a").blur();
     $("#credits-popup").dialog("open");
   });
 });
@@ -17,6 +18,7 @@ $(document).ready(function() {
     autoOpen: false,
     draggable: true,
     resizeable: true,
+    width: 400,
     maxHeight: 500,
     minHeight: 200
   });
