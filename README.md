@@ -11,4 +11,6 @@ https://runesatuppsala.herokuapp.com/
 ### Technologies used:
 NodeJS
 ExpressJS
+Bootstrap
+jQuery
 Google Street View API
