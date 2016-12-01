@@ -9,8 +9,8 @@ All code and poetry by Cait Powell, &copy; 2016
 https://runesatuppsala.herokuapp.com/
 
 ### Technologies used:
-NodeJS
-ExpressJS
-Bootstrap
-jQuery
-Google Street View API
+  - NodeJS
+  - ExpressJS
+  - Bootstrap
+  - jQuery
+  - Google Street View API
