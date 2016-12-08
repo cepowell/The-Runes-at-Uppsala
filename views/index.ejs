@@ -2,87 +2,80 @@
 
 <head>
     <% include ../views/partials/header %>
-    <script src = "../js/home.js"></script>
+        <script src="../js/home.js"></script>
 </head>
 
 <body class="home">
 
     <div class="container-fluid">
 
-            <div class "row">
-              <div class = "col-sm-10">
-              </div>
-              <div class = "col-sm-1 text-center home-top-nav">
-                <a id = "credits"> Credits </a>
-              </div>
-              <div class = "col-sm-1 text-center home-top-nav">
-                <a id = "help"> Help </a>
-              </div>
+        <div>
+            <div class="col-sm-10">
             </div>
+            <div class="col-sm-1 text-center home-top-nav">
+                <a id="credits"> Credits </a>
+            </div>
+            <div class="col-sm-1 text-center home-top-nav">
+                <a id="help"> Help </a>
+            </div>
+        </div>
 
-            <div id="credits-popup" class = "popup" title="About This Work">
-              <p>
+        <div id="credits-popup" class="popup" title="About This Work">
+            <p>
                 All code and poetry by Cait Powell, &copy; 2016.
                 <br>
+                <br> Built with NodeJS, ExpressJS, and the Google Street View API.
+                <br> Source code available at <a href="https://github.com/cepowell/The-Runes-at-Uppsala">GitHub</a>.
                 <br>
-                Built with NodeJS, ExpressJS, and the Google Street View API.
-                <br>
-                Source code available at <a href="https://github.com/cepowell/The-Runes-at-Uppsala">GitHub</a>.
-                <br>
-                <br>
-                Photograph on the home page courtesy of Unsplash.
-              </p>
-            </div>
+                <br> Photograph on the home page courtesy of Unsplash.
+            </p>
+        </div>
 
-            <div id="help-popup" class = "popup" title="How To Use This Work">
-              <p>
-                To enter this work, click on one of the maps below.
-                You will be redirected to an interactive street view map.
-                Use your mouse or arrow keys to navigate.
+        <div id="help-popup" class="popup" title="How To Use This Work">
+            <p>
+                To enter this work, click on one of the maps below. You will be redirected to an interactive street view map. Use your mouse or arrow keys to navigate.
                 <br>
-                <br>
-                As you explore, you will encounter orange location markers on the ground.
-                Click on each to reveal a poem.
-              </p>
-            </div>
+                <br> As you explore, you will encounter orange location markers on the ground. Click on each to reveal a poem.
+            </p>
+        </div>
 
-            <div class="title" id="title">
-                <h1>The Runes at Uppsala</h1>
-                <h3>
+        <div class="title" id="title">
+            <h1>The Runes at Uppsala</h1>
+            <h3>
                   A digital poetry collection
                 </h3>
-                <hr>
-                <hr>
-            </div>
+            <hr>
+            <hr>
+        </div>
 
-            <div class="row">
+        <div class="row">
 
-              <div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center">
                 <h3> Prologue </h3>
-                <a href = "/sanfrancisco">
-                  <img class = "thumbnail-map" src = "../img/sanfrancisco.jpg" alt = "San Francisco">
+                <a href="/sanfrancisco">
+                    <img class="thumbnail-map" src="../img/sanfrancisco.jpg" alt="San Francisco">
                 </a>
                 <br>
                 <h2> San Francisco, CA </h2>
-              </div>
+            </div>
 
-              <div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center">
                 <h3> Body </h3>
-                <a href = "/claremont">
-                  <img class = "thumbnail-map" src = "../img/claremont.jpg" alt = "Claremont">
+                <a href="/claremont">
+                    <img class="thumbnail-map" src="../img/claremont.jpg" alt="Claremont">
                 </a>
                 <br>
                 <h2> Claremont, CA </h2>
-              </div>
+            </div>
 
-              <div class="col-sm-4 text-center">
+            <div class="col-sm-4 text-center">
                 <h3> Epilogue </h3>
-                <a href = "/uppsala">
-                  <img class = "thumbnail-map" src = "../img/uppsala.jpg" alt = "Uppsala">
+                <a href="/uppsala">
+                    <img class="thumbnail-map" src="../img/uppsala.jpg" alt="Uppsala">
                 </a>
                 <br>
                 <h2> Uppsala, Sweden </h2>
-              </div>
+            </div>
         </div>
 
     </div>

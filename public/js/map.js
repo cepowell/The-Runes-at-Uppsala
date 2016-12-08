@@ -49,8 +49,8 @@ var panorama,
         lng: -117.7223872
     },
     cathedralCoords = {
-        lat: 59.8579499,
-        lng: 17.6324979
+        lat: 59.8579541,
+        lng: 17.6319444
     };
 
 function initialize() {
@@ -75,7 +75,7 @@ function initialize() {
         window.location.href = "/";
     });
 
-    // when the help button is clicked, display help window
+    // When the help button is clicked, display help window
     $("#map-help-popup").dialog({
         autoOpen: false,
         draggable: true,
@@ -100,38 +100,11 @@ function initialize() {
         });
     map.setStreetView(panorama);
 
-    /* RESIZEABLE MAPS */
-    /*function debounce(func, wait, immediate) {
-    	var timeout;
-    	return function() {
-    		var context = this, args = arguments;
-    		var later = function() {
-    			timeout = null;
-    			if (!immediate) func.apply(context, args);
-    		};
-    		var callNow = immediate && !timeout;
-    		clearTimeout(timeout);
-    		timeout = setTimeout(later, wait);
-    		if (callNow) func.apply(context, args);
-    	};
-    };
-
-    var resize = debounce(function() {
-      google.maps.event.trigger(map, "resize");
-    }, 400);
-
-    $("#panorama").resizable({ ghost: true });
-    $("#map").resizable({ ghost: true });
-
-    $("#panorama").resize(resize);
-    $("#map").resize(resize);*/
-
     /* ADD POEM POP-UPS AND LISTENERS */
     var precita = new google.maps.Marker({
         position: precitaCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'Precita'
+        icon: '../img/location.png'
     });
 
     var precita_street = new google.maps.Marker({
@@ -155,8 +128,7 @@ function initialize() {
     var ballroom = new google.maps.Marker({
         position: ballroomCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'Ballroom'
+        icon: '../img/location.png'
     });
 
     var ballroom_street = new google.maps.Marker({
@@ -180,8 +152,7 @@ function initialize() {
     var crookshank = new google.maps.Marker({
         position: crookshankCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'Crookshank'
+        icon: '../img/location.png'
     });
 
     var crookshank_street = new google.maps.Marker({
@@ -205,8 +176,7 @@ function initialize() {
     var bridges = new google.maps.Marker({
         position: bridgesCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'Bridges'
+        icon: '../img/location.png'
     });
 
     var bridges_street = new google.maps.Marker({
@@ -230,8 +200,7 @@ function initialize() {
     var south = new google.maps.Marker({
         position: southCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'South'
+        icon: '../img/location.png'
     });
 
     var south_street = new google.maps.Marker({
@@ -255,8 +224,7 @@ function initialize() {
     var village = new google.maps.Marker({
         position: villageCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'Village'
+        icon: '../img/location.png'
     });
 
     var village_street = new google.maps.Marker({
@@ -280,8 +248,7 @@ function initialize() {
     var house = new google.maps.Marker({
         position: houseCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'House with the Shutters'
+        icon: '../img/location.png'
     });
 
     var house_street = new google.maps.Marker({
@@ -305,8 +272,7 @@ function initialize() {
     var mallot = new google.maps.Marker({
         position: mallotCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'Mallot'
+        icon: '../img/location.png'
     });
 
     var mallot_street = new google.maps.Marker({
@@ -330,8 +296,7 @@ function initialize() {
     var toll = new google.maps.Marker({
         position: tollCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'Toll'
+        icon: '../img/location.png'
     });
 
     var toll_street = new google.maps.Marker({
@@ -355,8 +320,7 @@ function initialize() {
     var library = new google.maps.Marker({
         position: libraryCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'Precita'
+        icon: '../img/location.png'
     });
 
     var library_street = new google.maps.Marker({
@@ -380,8 +344,7 @@ function initialize() {
     var foothill = new google.maps.Marker({
         position: foothillCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'Foothill'
+        icon: '../img/location.png'
     });
 
     var foothill_street = new google.maps.Marker({
@@ -405,8 +368,7 @@ function initialize() {
     var cathedral = new google.maps.Marker({
         position: cathedralCoords,
         map: panorama,
-        icon: '../img/location.png',
-        title: 'Cathedral'
+        icon: '../img/location.png'
     });
 
     var cathedral_street = new google.maps.Marker({

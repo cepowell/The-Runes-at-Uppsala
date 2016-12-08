@@ -3,5 +3,5 @@ var latitude = 37.7469716,
     heading = 100;
 
 $(document).ready(function() {
-  $('#flash').hide();
+    $('#flash').hide();
 });
