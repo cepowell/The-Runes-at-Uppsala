@@ -25,5 +25,3 @@ app.get('/uppsala', function(req, res) {
 app.listen(port, function () {
   console.log('Application is running on http://localhost:' + port);
 });
-
-// AIzaSyBmkr8TmD8x5uppiNmwYlM70fFPBPPofqg

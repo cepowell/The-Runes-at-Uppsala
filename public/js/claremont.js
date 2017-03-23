@@ -1,5 +1,5 @@
-var latitude = 34.1071392,
-    longitude = -117.7131533,
+var latitude = 34.1036362,
+    longitude = -117.7115277;
     heading = 190;
 
 $(document).ready(function() {
